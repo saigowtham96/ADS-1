@@ -17,12 +17,14 @@ public class Solution {
 				if(threesum[i]+threesum[j]+threesum[k] == 0) {
 					count++;
 					j++;
+					k--;
 				} else if (threesum[i]+threesum[j]+threesum[k] < 0) {
 					j++;
 				} else {
-					k++;
+					k--;
 				}
 			}
 		}
+		System.out.println(count);
 	}
 }
