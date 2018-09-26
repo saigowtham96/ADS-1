@@ -1,10 +1,19 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
+/**
+ * Class for solution.
+ */
 public class Solution {
+/**
+* { function_description }
+*
+* @param      args  The arguments
+*/
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int m = s.nextInt();
 		int[] threesum = new int[m];
-		for(int i = 0;i < m;i++) {
+		for (int i = 0;i < m;i++) {
 			threesum[i] = s.nextInt();
 		}
 		Arrays.sort(threesum);
