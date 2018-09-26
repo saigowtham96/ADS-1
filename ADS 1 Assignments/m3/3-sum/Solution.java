@@ -15,7 +15,7 @@ public class Solution {
 *
 * @param      args  The arguments
 */
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int m = s.nextInt();
         int[] threesum = new int[m];
