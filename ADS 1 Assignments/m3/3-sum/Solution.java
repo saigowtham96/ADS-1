@@ -10,15 +10,15 @@ public class Solution {
 		Arrays.sort(threesum);
 		int count = 0;
 		int j;
-		for(int i =0;i<m-2;i++) {
+		for(int i = 0;i < m - 2;i++) {
 			j = i+1;
 			int k = m-1;
 			while(j<k) {
-				if(threesum[i]+threesum[j]+threesum[k] == 0) {
+				if(threesum[i] + threesum[j] + threesum[k] == 0) {
 					count++;
 					j++;
 					k--;
-				} else if (threesum[i]+threesum[j]+threesum[k] < 0) {
+				} else if (threesum[i] + threesum[j] + threesum[k] < 0) {
 					j++;
 				} else {
 					k--;
