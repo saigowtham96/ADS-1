@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**.
+ * { Solution for class }
+ */
 
 
 public final class  Solution {
@@ -29,7 +32,7 @@ public final class  Solution {
                 j++;
             }
         } else {
-            while (i < b.length) {
+            while (i < a.length) {
                 c[k++] = a[i];
                 i++;
 
