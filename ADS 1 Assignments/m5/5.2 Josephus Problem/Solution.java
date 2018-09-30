@@ -120,7 +120,7 @@ class Queue {
         size++;
         return;
     }
-    /**
+    /**.
      * {removes element at end}
      *
      * @return     { description_of_the_return_value }
