@@ -1,13 +1,12 @@
 import java.util.Scanner;
-/**
+/**.
  * {final class}
  */
 public final class Solution {
     /**.
      * Constructs the object.
      */
-    private Solution() {
-        
+    private Solution() {    
     }
     /**.
      * { main }
@@ -101,7 +100,7 @@ class Deque<E> {
         size++;
         linkedQueue.print();
     }
-    /**
+    /**.
      * {removes left element}
      */
     public void popLeft() {
@@ -117,7 +116,7 @@ class Deque<E> {
         }
         linkedQueue.print();
     }
-    /**
+    /**.
      * { removes right element}
      */
     public void popRight() {
