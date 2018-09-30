@@ -51,11 +51,21 @@ public final class Solution {
  * Queue class for queue implementaion
  */
 class Queue {
-    
+    /**
+     * { variable for size }
+     */
     private int size;
+    /**
+     * { node object}
+     */
     private Node queue;
+    /**
+     * { node for head }
+     */
     private Node head;
-    
+    /**
+     * Class for node.
+     */
     class Node {
        
         private int data;
