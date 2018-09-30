@@ -48,7 +48,6 @@ public final class Solution {
             }
             System.out.print(queueObj.deQueue());
             System.out.println();
-    
         }
     }
 }
@@ -56,19 +55,19 @@ public final class Solution {
  * Queue class for queue implementaion
  */
 class Queue {
-    /**
+    /**.
      * { variable for size }
      */
     private int size;
-    /**
+    /**.
      * { node object}
      */
     private Node queue;
-    /**
+    /**.
      * { node for head }
      */
     private Node head;
-    /**
+    /**.
      * Class for node.
      */
     class Node {
@@ -80,24 +79,31 @@ class Queue {
          * {node for link }
          */
         private Node link;
+        /**
+         * Constructs the object.
+         */
         Node() {
             this.data = 0;
             this.link = null;
         }
-        
+        /**
+         * Constructs the object.
+         *
+         * @param      data1  The data 1
+         */
         Node(final int data1) {
             this.data = data1;
             this.link = null;
         }
     }
-    /**
+    /**.
      * Constructs the object.
      */
     Queue() {
         queue = new Node();
         size = 0;
     }
-    /**
+    /**.
      * {adds element at the head}
      *
      * @param      data  The data
