@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/**
+/**.
  * { final class }
  */
 final class Solution {
@@ -9,6 +9,11 @@ final class Solution {
     private Solution() {
 
     }
+    /**
+     * { main}
+     *
+     * @param      args  The arguments
+     */
     
     public static void main(final String[] args) {
         String input;
@@ -24,6 +29,9 @@ final class Solution {
 
     }
 }
+/**
+ * Class for balanced parenthesis.
+ */
 
 class BalancedParenthesis {
     /**.
