@@ -88,7 +88,7 @@ class Queue {
     public int deQueue() {
         Node current = head;
         if (size == 1) {
-            size++;
+            size--;
             int n = head.data;
             head = null;
             return current.data;
