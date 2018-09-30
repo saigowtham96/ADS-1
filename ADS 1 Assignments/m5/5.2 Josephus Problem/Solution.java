@@ -1,7 +1,11 @@
 import java.util.Scanner;
-
+/**
+ * { class for solution }
+ */
 public final class Solution {
-   
+    /**
+     * Constructs the object.
+     */
     private Solution() {
     }
     public static void main(final String[] args) {
@@ -66,12 +70,18 @@ class Queue {
             this.link = null;
         }
     }
-    
+    /**
+     * Constructs the object.
+     */
     Queue() {
         queue = new Node();
         size = 0;
     }
-    
+    /**
+     * {adds element at the head}
+     *
+     * @param      data  The data
+     */
     public void enQueue(final int data) {
         if (size == 0) {
             head = new Node(data);
@@ -84,7 +94,11 @@ class Queue {
         size++;
         return;
     }
-    
+    /**
+     * {removes element at end}
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int deQueue() {
         Node current = head;
         if (size == 1) {
@@ -104,11 +118,19 @@ class Queue {
         size--;
         return data;
     }
-    
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return size == 0;
     }
-    
+    /**
+     * Gets the size.
+     *
+     * @return     The size.
+     */
     public int getSize() {
         return size;
     }
