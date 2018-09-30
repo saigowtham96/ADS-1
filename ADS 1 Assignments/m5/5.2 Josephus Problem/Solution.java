@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/**
+/**.
  * { class for solution }
  */
 public final class Solution {
@@ -8,6 +8,11 @@ public final class Solution {
      */
     private Solution() {
     }
+    /**.
+     * {main method}
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         /**.
          * scanner object to read the data
