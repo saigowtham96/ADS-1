@@ -69,7 +69,7 @@ class BalancedParenthesis {
                         pop();
                     } else if (elements[i].equals("}") && (
                                    stack[size - 1].equals(
-                                       ""))) {
+                                       "{"))) {
                         pop();
                     }
                 }
