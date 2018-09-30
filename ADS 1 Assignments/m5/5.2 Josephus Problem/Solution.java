@@ -71,15 +71,15 @@ class Queue {
      * Class for node.
      */
     class Node {
-        /**
+        /**.
          * { variable for data }
          */
         private int data;
-        /**
+        /**.
          * {node for link }
          */
         private Node link;
-        /**
+        /**.
          * Constructs the object.
          */
         Node() {
