@@ -9,12 +9,11 @@ final class Solution {
     private Solution() {
 
     }
-    /**
+    /**.
      * { main}
      *
      * @param      args  The arguments
-     */
-    
+     */ 
     public static void main(final String[] args) {
         String input;
         Scanner scan = new Scanner(System.in);
@@ -92,7 +91,9 @@ class BalancedParenthesis {
     public void push(final String element) {
         stack[size++] = element;
     }
-    
+    /**
+     * { removes element }
+     */
     public void pop() {
         size--;
     }
