@@ -69,9 +69,8 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:90:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:90:27: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:94:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:95:49: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:95:50: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:95:51: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:95:64: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:95:65: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:97:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:97:28: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:20: 'for' is not followed by whitespace. [WhitespaceAround]
@@ -139,4 +138,4 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:197:133: '5' is a magic number. [MagicNumber]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:198:58: '6' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 139 errors.
+Checkstyle ends with 138 errors.

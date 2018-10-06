@@ -92,7 +92,7 @@ class Results {
 		insobj.sort(details);
 	}
 	public void resize() {
-		details = Arrays.copyOf(details,2*details.length);
+		details = Arrays.copyOf(details, details.length+1);
 	}
 	public void print(){
 		for(int i = 0;i<size;i++){
