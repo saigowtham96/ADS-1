@@ -101,7 +101,7 @@ class Results {
 	}
 	public void allotment(){
 		int i;
-		int countbc =0;
+		int countbc = 0;
 		int countsc = 0;
 		int countst = 0;
 		for(i = 0;i<un;i++){

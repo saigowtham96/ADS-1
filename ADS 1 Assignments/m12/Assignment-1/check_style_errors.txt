@@ -81,7 +81,6 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:42: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:102:32: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:104:30: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:107:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:107:27: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:107:28: '<' is not preceded with whitespace. [WhitespaceAround]
@@ -137,4 +136,4 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:199:133: '5' is a magic number. [MagicNumber]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:200:58: '6' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 137 errors.
+Checkstyle ends with 136 errors.
