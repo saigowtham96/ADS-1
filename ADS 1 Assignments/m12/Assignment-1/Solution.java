@@ -1,4 +1,3 @@
-import java.util.Comparator;
 import java.util.Scanner;
 import java.util.Arrays;
 class Details {
@@ -96,7 +95,7 @@ class Results {
 		details = Arrays.copyOf(details, details.length + 1);
 	}
 	public void print(){
-		for(int i = 0;i<size;i++){
+		for(int i = 0;i<size-1;i++){
 			System.out.println(details[i].toString());
 		}
 	}
@@ -141,7 +140,7 @@ class Results {
  */
 class InsertionSort {
 	/**
-	 * { function_description }
+	 * {Insertion sort}
 	 *
 	 * @param      a     { parameter_description }
 	 */

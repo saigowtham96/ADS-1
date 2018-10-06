@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -53,7 +53,6 @@ Aishwarya,48,Open
 Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
-Shreya,23,SC
 
 divya,99,ST
 Deepak,98,Open
@@ -133,7 +132,6 @@ Aishwarya,48,Open
 Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
-Shreya,23,SC
 
 Ishita,99,Open
 divya,99,ST
@@ -163,8 +161,8 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at Insertion.less(Solution.java:152)
 	at Insertion.sort(Solution.java:144)
-	at Results.sort(Solution.java:93)
-	at Solution.main(Solution.java:201)
+	at Results.sort(Solution.java:92)
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -189,8 +187,8 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at Insertion.less(Solution.java:152)
 	at Insertion.sort(Solution.java:144)
-	at Results.sort(Solution.java:93)
-	at Solution.main(Solution.java:201)
+	at Results.sort(Solution.java:92)
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -268,7 +266,6 @@ Manoj,39,Open
 Anjali,38,Open
 Aryan,32,Open
 Shreya,23,Open
-shyam,23,Open
 
 tanvi,99,Open
 Ishita,99,Open
@@ -356,7 +353,6 @@ Aishwarya,48,Open
 Anjali,38,SC
 Manoj,32,SC
 Aryan,32,ST
-Shreya,23,SC
 
 Ishita,99,Open
 Deepak,99,Open
