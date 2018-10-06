@@ -136,50 +136,51 @@ class Results {
 		
 	}
 }
-class Insertion {
-
-	public Insertion() {}
-	public void sort(Details[] a) {
-		for (int i = 1; i < a.length; i++) {
-			for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
-				exchange(a, j, j - 1);
+/**
+ * Class for selectionsort.
+ */
+class InsertionSort {
+	/**
+	 * { function_description }
+	 *
+	 * @param      a     { parameter_description }
+	 */
+	public static void sort(final Comparable[] a) {
+		int N = a.length;
+		for (int i = 0; i < N; i++) {
+			for (int j = i; j > 0; j--) {
+				if (less(a[j], a[j - 1])) {
+					exch(a, j, j - 1);
+				} else break;
 			}
-			// System.out.println(Arrays.toString(a));
-
 		}
 	}
-	public boolean less(Details b1, Details b2) {
-		return b1.compareTo(b2) < 0;
-
+	/**
+	 * { function_description }
+	 *
+	 * @param      i     { parameter_description }
+	 * @param      j     { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	private static boolean less(final Comparable i, final Comparable j) {
+		return i.compareTo(j) < 0;
 	}
-	public void exchange(Details[] a, int i, int j) {
-		Details swap = a[i];
+	/**
+	 * { function_description }
+	 *
+	 * @param      a     { parameter_description }
+	 * @param      i     { parameter_description }
+	 * @param      j     { parameter_description }
+	 */
+	private static void exch(final Comparable[] a,
+	                         final int i, final int j) {
+		Comparable swap = a[i];
 		a[i] = a[j];
 		a[j] = swap;
 	}
-
-	// public void sort(Object[] a, Comparator comparator) {
-	// 	int n = a.length;
-	// 	for (int i = 0; i < n; i++) {
-	// 		for (int j = i; j > 0 && less(a[j], a[j - 1], comparator); j--) {
-	// 			exch(a, j, j - 1);
-	// 		}
-	// 		// assert isSorted(a, 0, i, comparator);
-	// 	}
-	// 	// assert isSorted(a, comparator);
-	// }
-
-
-	// private  boolean less(Object v, Object w, Comparator comparator) {
-	// 	return comparator.compare(v, w) < 0;
-	// }
-
-	// private void exch(Object[] a, int i, int j) {
-	// 	Object swap = a[i];
-	// 	a[i] = a[j];
-	// 	a[j] = swap;
-	// }
 }
+
 class Solution {
 	public static void main(String[] args) {
 		Results resultObj = new Results();
