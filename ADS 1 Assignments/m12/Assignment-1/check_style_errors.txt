@@ -75,10 +75,8 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:31: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:32: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:33: '<' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:37: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:38: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:40: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:44: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:38: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:98:42: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:102:32: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:104:30: '=' is not followed by whitespace. [WhitespaceAround]
@@ -138,4 +136,4 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:197:133: '5' is a magic number. [MagicNumber]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:198:58: '6' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 138 errors.
+Checkstyle ends with 136 errors.

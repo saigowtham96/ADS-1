@@ -95,7 +95,7 @@ class Results {
 		details = Arrays.copyOf(details, details.length + 1);
 	}
 	public void print(){
-		for(int i = 0;i<size-1;i++){
+		for(int i = 0;i<size;i++){
 			System.out.println(details[i].toString());
 		}
 	}

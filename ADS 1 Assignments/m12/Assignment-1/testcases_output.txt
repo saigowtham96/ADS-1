@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -53,6 +53,7 @@ Aishwarya,48,Open
 Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
+Shreya,23,SC
 
 divya,99,ST
 Deepak,98,Open
@@ -132,6 +133,7 @@ Aishwarya,48,Open
 Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
+Shreya,23,SC
 
 Ishita,99,Open
 divya,99,ST
@@ -266,6 +268,7 @@ Manoj,39,Open
 Anjali,38,Open
 Aryan,32,Open
 Shreya,23,Open
+shyam,23,Open
 
 tanvi,99,Open
 Ishita,99,Open
@@ -353,6 +356,7 @@ Aishwarya,48,Open
 Anjali,38,SC
 Manoj,32,SC
 Aryan,32,ST
+Shreya,23,SC
 
 Ishita,99,Open
 Deepak,99,Open
