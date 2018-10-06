@@ -71,7 +71,7 @@ class Results {
 	int st;
 	Details obj1 = new Details();
 	Results() {
-		details = new Details[20];
+		details = new Details[100];
 		size = 0;
 	}
 	public void addVac(int vace, int unr, int bc1, int sc1, int st1) {
@@ -140,7 +140,7 @@ class Results {
  */
 class InsertionSort {
 	/**
-	 * {Insertion sort}
+	 * {sort method}
 	 *
 	 * @param      a     { parameter_description }
 	 */
@@ -155,7 +155,7 @@ class InsertionSort {
 		}
 	}
 	/**
-	 * { function_description }
+	 * { less method }
 	 *
 	 * @param      i     { parameter_description }
 	 * @param      j     { parameter_description }
@@ -166,7 +166,7 @@ class InsertionSort {
 		return i.compareTo(j) < 0;
 	}
 	/**
-	 * { function_description }
+	 * {exchange method }
 	 *
 	 * @param      a     { parameter_description }
 	 * @param      i     { parameter_description }
@@ -179,7 +179,9 @@ class InsertionSort {
 		a[j] = swap;
 	}
 }
-
+/**
+ * Class for solution.
+ */
 class Solution {
 	public static void main(String[] args) {
 		Results resultObj = new Results();
