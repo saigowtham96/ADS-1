@@ -29,22 +29,22 @@ class Details {
 			return -1;
 		} else {
 			if (this.sub3 < obj.sub3) {
-				return -1;
+				return 1;
 			}
 			if (this.sub3 > obj.sub3) {
-				return 1;
+				return -1;
 			} else {
 				if (this.sub2 < obj.sub2) {
-					return 1;
+					return -1;
 				}
 				if (this.sub2 > obj.sub2) {
-					return -1;
+					return 1;
 				} else {
 					if (this.sub1 < obj.sub1) {
-						return 1;
+						return -1;
 					}
 					if (this.sub1 > obj.sub1) {
-						return -1;
+						return 1;
 					}
 				}
 			}
@@ -74,6 +74,15 @@ class Results {
 		details = new Details[20];
 		size = 0;
 	}
+	/**
+	 * Adds a vac.
+	 *
+	 * @param      vace  The vace
+	 * @param      unr   The unr
+	 * @param      bc1   The bc 1
+	 * @param      sc1   The screen 1
+	 * @param      st1   The st 1
+	 */
 	public void addVac(int vace, int unr, int bc1, int sc1, int st1) {
 		this.vac = vace;
 		this.un = unr;
@@ -81,34 +90,51 @@ class Results {
 		this.sc = sc1;
 		this.st = st1;
 	}
+	/**
+	 * {add}
+	 *
+	 * @param      obj   The object
+	 */
 	public void add(Details obj) {
 		if (details.length == size) {
 			resize();
 		}
 		details[size++] = obj;
 	}
+	/**
+	 * { sorting method }
+	 */
 	public void sort(){
 		Insertion insobj = new Insertion();
 		insobj.sort(details);
 	}
+	/**
+	 * {resize method}
+	 */
 	public void resize() {
 		details = Arrays.copyOf(details, details.length+1);
 	}
+	/**.
+	 * {print method}
+	 */
 	public void print(){
-		for(int i = 0;i<size;i++){
+		for (int i = 0;i<size;i++) {
 			System.out.println(details[i].toString());
 		}
 	}
+	/**.
+	 * {allotment}
+	 */
 	public void allotment(){
 		int i;
 		int countbc = 0;
 		int countsc = 0;
 		int countst = 0;
-		for(i = 0;i<un;i++){
+		for (i = 0;i<un;i++){
 			System.out.println(details[i].toString());
 		}
 		int l = i;
-		while(countst<st&&l<size){
+		while (countst<st&&l<size){
 			if(details[l].getCategory().equals("ST")){
 				System.out.println(details[l].toString());
 				countst++;
@@ -116,16 +142,16 @@ class Results {
 			l++;
 		}
 		int k = i;
-		while(countsc<sc&&k<size){
-			if(details[k].getCategory().equals("SC")){
+		while (countsc<sc&&k<size){
+			if (details[k].getCategory().equals("SC")){
 				System.out.println(details[k].toString());
 				countsc++;
 			}
 			k++;
 		}
 		int j = i;
-		while(countbc<bc&&j<size){
-			if(details[i].getCategory().equals("BC")){
+		while (countbc<bc&&j<size){
+			if (details[i].getCategory().equals("BC")){
 				System.out.println(details[j].toString());
 				countbc++;
 			}
@@ -135,11 +161,11 @@ class Results {
 		
 	}
 }
-/**
+/**.
  * Class for selectionsort.
  */
 class InsertionSort {
-	/**
+	/**.
 	 * {sort method}
 	 *
 	 * @param      a     { parameter_description }
@@ -154,7 +180,7 @@ class InsertionSort {
 			}
 		}
 	}
-	/**
+	/**.
 	 * { less method }
 	 *
 	 * @param      i     { parameter_description }
@@ -165,7 +191,7 @@ class InsertionSort {
 	private static boolean less(final Comparable i, final Comparable j) {
 		return i.compareTo(j) < 0;
 	}
-	/**
+	/**.
 	 * {exchange method }
 	 *
 	 * @param      a     { parameter_description }
