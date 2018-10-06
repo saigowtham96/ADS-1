@@ -57,7 +57,7 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:72:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:72:17: Variable 'obj1' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:73:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:74:39: '100' is a magic number. [MagicNumber]
+[ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:74:39: '20' is a magic number. [MagicNumber]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:77:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:77:28: Parameter vace should be final. [FinalParameters]
 [ERROR] F:\git files\testing-repository\ADS-1\ADS 1 Assignments\m12\Assignment-1\Solution.java:77:38: Parameter unr should be final. [FinalParameters]

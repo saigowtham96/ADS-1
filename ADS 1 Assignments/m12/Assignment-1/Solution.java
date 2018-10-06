@@ -71,7 +71,7 @@ class Results {
 	int st;
 	Details obj1 = new Details();
 	Results() {
-		details = new Details[100];
+		details = new Details[20];
 		size = 0;
 	}
 	public void addVac(int vace, int unr, int bc1, int sc1, int st1) {
