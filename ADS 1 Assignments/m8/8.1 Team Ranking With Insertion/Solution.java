@@ -22,7 +22,7 @@ public final class Solution {
     private static final int THREE = 3;
     /**.
      * { main function }
-     *
+     * The complexity of main method is O(N).
      * @param      args  The arguments
      */
     public static void main(final String[] args) {

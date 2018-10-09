@@ -4,7 +4,9 @@
 class Selectionsort {
 	/**
 	 * { function_description }
-	 *
+	 ** Complexity of Selection Sort is O(N^2).
+     * Because It uses nested loops.
+     * So the complexity would be O(N^2).
 	 * @param      a     { parameter_description }
 	 */
 	public static void sort(final Comparable[] a) {
