@@ -81,10 +81,10 @@ John
 Hank
 13.3
 Jeannette Caines
-Student does not exists
-Student does not exists
-Student does not exists
-Student does not exists
+Student does not exists...
+Student does not exists...
+Student does not exists...
+Student does not exists...
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -920,7 +920,7 @@ Annie Maccoby
 David Macfarlane
 10.42
 88.39
-Student does not exists
+Student does not exists...
 8.759
 40.1
 35.74
@@ -961,7 +961,7 @@ Korey Jackson
 Betty Halbreich
 35.6
 Dana C. Jack
-Student does not exists
+Student does not exists...
 Elaine Hall
 Bonnie MacBird
 54.45
@@ -1041,7 +1041,7 @@ Chuck Hagel
 John W. Jacobs
 David Hagedorn
 Todd Haberkorn
-Student does not exists
+Student does not exists...
 Mary Curran Hackett
 Catherine Macaulay
 Kinley MacGregor
