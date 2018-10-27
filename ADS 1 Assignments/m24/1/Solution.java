@@ -3,20 +3,14 @@ import java.util.Scanner;
  * Solution class.
  */
 final class Solution {
-    /**
+    /**.
      * Constructs the object.
      */
     private Solution() {
 
     }
-    /**
-     * main method 
-     * Time complexity of this method is
-     * O(MlogN*+PlogN*)
-     * M is the number of times put method called
-     * logN* is  put method time complexity for N values
-     * P is te number of times get method called
-     * logN* is  get method time complexity for N values
+    /**.
+     * main method
      *
      * @param      args  The arguments
      */
